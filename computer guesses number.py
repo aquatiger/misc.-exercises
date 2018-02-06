@@ -13,8 +13,9 @@ def computer_guess():
     print("Is this guess higher or lower than the number you chose?")
     print("\nPress h for computer to guess a higher number.")
     print("\nPress l for computer to guess a lower number.")
-
-suggestion = print(input("\nOr press c if the computer was correct."))
+    print("\nOr press c if the computer was correct.")
+    
+suggestion = input()
 computer_guess()
 
 if suggestion != 'c':
