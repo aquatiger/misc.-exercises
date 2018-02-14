@@ -4,11 +4,7 @@
 import random
 
 message = input("Please type in message: ")
-splitList = []
 
-for char in message:
-    splitted = splitList.append(splitList)
-    
 indexed = random.randrange(0, len(message))
 print(indexed)
-print(splitted)
+print(message[indexed])
