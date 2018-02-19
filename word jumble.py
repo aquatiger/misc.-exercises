@@ -1,4 +1,4 @@
-# Word Jumble
+# Word Jumble, works as far as I know
 # copied skeleton from book, but added counting, hints, scoring system
 # computer picks random word from a tuple and then jumbles it up
 # player has to guess original word
