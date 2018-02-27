@@ -22,7 +22,7 @@ From the list of scrambled words,
 Choose the one the computer chose.
 """
 print("The word is ", len(word), "letters long.")
-print(word)
+# print(word)
 
 for word in WORDS:
         position = random.randrange(len(word))
