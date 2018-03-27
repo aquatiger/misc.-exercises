@@ -35,4 +35,3 @@ if guess != the_number and tries > 2:
     print("\nYou took too long!")
     print("The number was: ", the_number)
 
-
