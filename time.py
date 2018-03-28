@@ -7,9 +7,9 @@ time = int(input("Please enter the number of seconds you want to convert to minu
 ##    #break
 
 # months have 60 sec * 60 min * 24 hrs * 30 days = 2,592,000 sec
-months = 
+months = time // 2592000
 # days have 60 sec * 60 min * 24 hrs = 86400 sec
-days = time // 86400
+days = (time % 2592000) // 30
 # hours have 60 sec * 60 min = 3600 sec
 hours = (time % 86400) // 24
 # minutes have 60 sec
